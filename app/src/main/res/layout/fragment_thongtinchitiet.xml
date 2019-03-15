@@ -8,12 +8,7 @@
     tools:context=".thongtinchitietFragment">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="10dp"
-        android:background="@drawable/sharp">
+
 
         <TextView
             android:id="@+id/tv_title"
@@ -32,7 +27,7 @@
                 android:id="@+id/tv_theloai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:layout_weight="1"
 
                 android:text="Thể loại :" />
@@ -62,7 +57,7 @@
                 android:id="@+id/tv_ngaysanxuat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:layout_weight="1"
                 android:text="Ngày sản xuất :" />
 
@@ -87,7 +82,7 @@
                 android:id="@+id/tv_nxb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:layout_weight="1"
                 android:text="Nhà Xuất Bản :" />
 
@@ -113,7 +108,7 @@
                 android:id="@+id/tv_cothebanthick"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="30dp"
+                android:textSize="20dp"
                 android:layout_weight="1"
                 android:text="Có thể bạn thích :" />
 
@@ -124,4 +119,3 @@
 
 
 
-</LinearLayout>
